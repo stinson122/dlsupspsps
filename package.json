@@ -1,0 +1,15 @@
+{
+  "name": "dlsupspsps",
+  "version": "1.0.0",
+  "description": "pspspspssp",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i ./src/styles.css -o ./public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
