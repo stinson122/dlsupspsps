@@ -73,6 +73,8 @@ nav a:hover {
 }
 
 .mimiw-1{
+    background: url('images/mimiw1.png');
+    background-size: cover;
     width: 213px;
     height: 336px;
     flex-shrink: 0;
@@ -80,10 +82,11 @@ nav a:hover {
 
     border-radius: 15px;
     border: 1px solid #000;
-    background: #E3F6F5;
 }
 
 .mimiw-2{
+    background: url('images/mimiw2.jpg');
+    background-size: cover;
     width: 213px;
     height: 336px;
     flex-shrink: 0;
@@ -91,10 +94,11 @@ nav a:hover {
 
     border-radius: 15px;
     border: 1px solid #000;
-    background: #E3F6F5;
 }
 
 .mimiw-3{
+    background: url('images/mimiw3.jpg');
+    background-size: cover;
     width: 213px;
     height: 336px;
     flex-shrink: 0;
@@ -102,15 +106,15 @@ nav a:hover {
 
     border-radius: 15px;
     border: 1px solid #000;
-    background: #E3F6F5;
 }
 
 .mimiw-4{
+    background: url('images/mimiw4.jpg');
+    background-size: cover;
     width: 213px;
     height: 336px;
     flex-shrink: 0;
 
     border-radius: 15px;
     border: 1px solid #000;
-    background: #E3F6F5;
 }
