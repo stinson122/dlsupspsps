@@ -1292,3 +1292,14 @@ video {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
+  .user-pic-small {
+    width: 40px;
+    height: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: 1px solid transparent;
+  }
+
