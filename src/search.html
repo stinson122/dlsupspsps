@@ -1,5 +1,5 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,41 +7,44 @@
     <title>Search</title>
     <link href="output.css" rel="stylesheet">
 </head>
-
-<body>
-    <div class="nav-bar text-white">
-        <span class="nav-website-name"><a href="/LANDING/Landing.html">DLSU3PS</a></span>
-        <div class="">
-            <span class=""><input type="text" placeholder="Search..." class="top-100 py-2.5 px-3.5 nav-search-bar"></span>
-        </div>
-        <nav class="nav-bar-options">
-            <a href="profile.html" class="nav-profile">Profile</a>
-        </nav>
-    </div>
-
-    <div class="post-create-bar">
-        <span class=""><input type="text" placeholder="Create a post..." class="top-100 py-2.5 px-3.5 border login-input"></span>
-    </div>
-    
-    <div class="posts">
-        <div class="post-block">
-            <div class="post-title">Post</div>
-            <br>
-            <div class="post-body">Lorem ipsum dolor sit amet consectetur. Pellentesque sapien tortor sed fringilla nam hendrerit. Nunc ullamcorper sem ultrices dolor cras tincidunt arcu magna dolor. Feugiat vitae semper ut eget ut vel...
-                Lorem ipsum dolor sit amet consectetur. Pellentesque sapien tortor sed fringilla nam hendrerit. Nunc ullamcorper sem ultrices dolor cras tincidunt arcu magna dolor. Feugiat vitae semper ut eget ut vel...
-                Lorem ipsum dolor sit amet consectetur. Pellentesque sapien tortor sed fringilla nam hendrerit...
-            </div>
+<body class="font-roboto bg-beige">
+    <header class="flex justify-between items-center bg-wow-yellow p-0 px-10 h-20">
+        <div class="logo">
+            <a href="Landing.html" class="text-beige no-underline">
+                <h1 class="m-0 text-3xl font-bold">DLSU3PS</h1>
+            </a>
         </div>
         
-        <div class="post-block">
-            <div class="post-title">Post</div>
-            <br>
-            <div class="post-body">Lorem ipsum dolor sit amet consectetur. Pellentesque sapien tortor sed fringilla nam hendrerit. Nunc ullamcorper sem ultrices dolor cras tincidunt arcu magna dolor. Feugiat vitae semper ut eget ut vel...
+        <nav class="flex">
+            <a href="#" class="text-beige no-underline mx-5 hover:text-beige">About</a>
+            <a href="About.html" class="text-beige no-underline mx-5 hover:text-beige">Home</a>
+            <a href="#" class="text-beige no-underline mx-5 hover:text-beige">Profile</a>
+            <a href="Landing.html" class="text-beige no-underline mx-5 hover:text-beige">Logout</a>
+        </nav>
+    </header>
+
+    <div class="px-4 py-2">
+        <input type="text" placeholder="Search Posts" class="w-full py-2 px-4 border-2 border-black rounded-lg">
+    </div>
+    
+    <div class="space-y-4 p-4">
+        <div class="p-4 border-2 border-black rounded-lg">
+            <h2 class="text-xl font-bold">Post</h2>
+            <p class="mt-2 text-dim-gray">
+                Lorem ipsum dolor sit amet consectetur. Pellentesque sapien tortor sed fringilla nam hendrerit. Nunc ullamcorper sem ultrices dolor cras tincidunt arcu magna dolor. Feugiat vitae semper ut eget ut vel...
                 Lorem ipsum dolor sit amet consectetur. Pellentesque sapien tortor sed fringilla nam hendrerit. Nunc ullamcorper sem ultrices dolor cras tincidunt arcu magna dolor. Feugiat vitae semper ut eget ut vel...
                 Lorem ipsum dolor sit amet consectetur. Pellentesque sapien tortor sed fringilla nam hendrerit...
-            </div>
+            </p>
+        </div>
+        
+        <div class="p-4 border-2 border-black rounded-lg">
+            <h2 class="text-xl font-bold">Post</h2>
+            <p class="mt-2 text-dim-gray">
+                Lorem ipsum dolor sit amet consectetur. Pellentesque sapien tortor sed fringilla nam hendrerit. Nunc ullamcorper sem ultrices dolor cras tincidunt arcu magna dolor. Feugiat vitae semper ut eget ut vel...
+                Lorem ipsum dolor sit amet consectetur. Pellentesque sapien tortor sed fringilla nam hendrerit. Nunc ullamcorper sem ultrices dolor cras tincidunt arcu magna dolor. Feugiat vitae semper ut eget ut vel...
+                Lorem ipsum dolor sit amet consectetur. Pellentesque sapien tortor sed fringilla nam hendrerit...
+            </p>
         </div>
     </div>
 </body>
-
 </html>
