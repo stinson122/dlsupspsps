@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <script src="manage-profile.js"></script>
 </head>
 
 <body class="bg-beige">
@@ -17,9 +18,9 @@
         </div>
 
         <nav class="flex">
-            <a href="About.html" class="text-beige no-underline mx-5 hover:text-beige">About</a>
-            <a href="Home.html" class="text-beige no-underline mx-5 hover:text-beige">Home</a>
-            <a href="#" class="text-beige no-underline mx-5 hover:text-beige">Profile</a>
+            <a href="#" class="text-beige no-underline mx-5 hover:text-beige">About</a>
+            <a href="About.html" class="text-beige no-underline mx-5 hover:text-beige">Home</a>
+            <a href="#" id="profileLink" class="text-beige no-underline mx-5 hover:text-beige">Profile</a>
             <a href="ForumList.html" class="text-beige no-underline mx-5 hover:text-beige">Forums</a>
             <a href="Landing.html" class="text-beige no-underline mx-5 hover:text-beige">Logout</a>
         </nav>
@@ -73,7 +74,7 @@
                         </td>
                         <td class="py-4 px-6 overflow-hidden overflow-ellipsis">
                             <a href="View-Post-Snowflake.html" class="flex items-center no-underline text-gray-900">
-                                <div class="user-pic-small mx-4">
+                                <div class="w-10 h-10 bg-whitesmoke rounded-full border border-transparent mx-4 flex-shrink-0 overflow-hidden">
                                     <img src="../public/images/catuser0.png" />
                                 </div>
                                 <div class="flex-col">
@@ -112,7 +113,7 @@
                         </td>
                         <td class="py-4 px-6 overflow-hidden overflow-ellipsis">
                             <a href="View-Post-Whiskers.html" class="flex items-center no-underline text-gray-900">
-                                <div class="user-pic-small mx-4">
+                                <div class="w-10 h-10 bg-whitesmoke rounded-full border border-transparent mx-4 flex-shrink-0 overflow-hidden">
                                     <img src="../public/images/catuser1.png" />
                                 </div>
                                 <div class="flex-col">
@@ -151,7 +152,7 @@
                         </td>
                         <td class="py-4 px-6 overflow-hidden overflow-ellipsis">
                             <a href="View-Post-Luna.html" class="flex items-center no-underline text-gray-900">
-                                <div class="user-pic-small mx-4">
+                                <div class="w-10 h-10 bg-whitesmoke rounded-full border border-transparent mx-4 flex-shrink-0 overflow-hidden">
                                     <img src="../public/images/catuser2.png" />
                                 </div>
                                 <div class="flex-col">
@@ -189,7 +190,7 @@
                         </td>
                         <td class="py-4 px-6 overflow-hidden overflow-ellipsis">
                             <a href="View-Post-Ginger.html" class="flex items-center no-underline text-gray-900">
-                                <div class="user-pic-small mx-4">
+                                <div class="w-10 h-10 bg-whitesmoke rounded-full border border-transparent mx-4 flex-shrink-0 overflow-hidden">
                                     <img src="../public/images/catuser1.png" />
                                 </div>
                                 <div class="flex-col">
@@ -227,7 +228,7 @@
                         </td>
                         <td class="py-4 px-6 overflow-hidden overflow-ellipsis">
                             <a href="View-Post-Socks.html" class="flex items-center no-underline text-gray-900">
-                                <div class="user-pic-small mx-4">
+                                <div class="w-10 h-10 bg-whitesmoke rounded-full border border-transparent mx-4 flex-shrink-0 overflow-hidden">
                                     <img src="../public/images/catuser3.png" />
                                 </div>
                                 <div class="flex-col">
@@ -288,7 +289,7 @@
                         </td>
                         <td class="py-4 px-6 overflow-hidden overflow-ellipsis">
                             <div class="flex">
-                                <div class="user-pic-small mx-4">
+                                <div class="w-10 h-10 bg-whitesmoke rounded-full border border-transparent mx-4 flex-shrink-0 overflow-hidden">
                                     <img src="../public/images/catuser0.png" />
                                 </div>
                                 <div class="flex-col">
@@ -324,7 +325,7 @@
                         </td>
                         <td class="py-4 px-6 max-w-3 overflow-hidden max-h-1">
                             <div class="flex">
-                                <div class="user-pic-small mx-4">
+                                <div class="w-10 h-10 bg-whitesmoke rounded-full border border-transparent mx-4 flex-shrink-0 overflow-hidden">
                                     <img src="../public/images/catuser0.png" />
                                 </div>
                                 <div class="flex-col">
@@ -361,7 +362,7 @@
                         </td>
                         <td class="py-4 px-6 max-w-3 overflow-hidden max-h-1">
                             <div class="flex">
-                                <div class="user-pic-small mx-4">
+                                <div class="w-10 h-10 bg-whitesmoke rounded-full border border-transparent mx-4 flex-shrink-0 overflow-hidden">
                                     <img src="../public/images/catuser0.png" />
                                 </div>
                                 <div class="flex-col">
@@ -398,7 +399,7 @@
                         </td>
                         <td class="py-4 px-6 min-w-5 overflow-hidden max-h-1">
                             <div class="flex">
-                                <div class="user-pic-small mx-4">
+                                <div class="w-10 h-10 bg-whitesmoke rounded-full border border-transparent mx-4 flex-shrink-0 overflow-hidden">
                                     <img src="../public/images/catuser0.png" />
                                 </div>
                                 <div class="flex-col">
@@ -435,7 +436,7 @@
                         </td>
                         <td class="py-4 px-6 max-w-3 overflow-hidden max-h-1">
                             <div class="flex">
-                                <div class="user-pic-small mx-4">
+                                <div class="w-10 h-10 bg-whitesmoke rounded-full border border-transparent mx-4 flex-shrink-0 overflow-hidden">
                                     <img src="../public/images/catuser0.png" />
                                 </div>
                                 <div class="flex-col">
