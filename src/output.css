@@ -560,11 +560,6 @@ video {
   margin-right: 1rem;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -1222,7 +1217,6 @@ video {
 }
 
 .text-green-700 {
-.text-indigo-500 {
   --tw-text-opacity: 1;
   color: rgb(21 128 61 / var(--tw-text-opacity));
 }
@@ -1230,7 +1224,6 @@ video {
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
-  color: rgb(99 102 241 / var(--tw-text-opacity));
 }
 
 .no-underline {
