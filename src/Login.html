@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up</title>
+    <title>Login</title>
     <link href="./output.css" rel="stylesheet">
+    <script src="login-store.js"></script>
 </head>
 <body class="bg-beige font-roboto m-0 p-0 h-screen flex flex-col">
 
@@ -24,16 +25,14 @@
         </div>
         <div class="w-6/12">
             <div class="flex flex-col bg-burnt-sienna rounded-lg p-6 gap-4">
-                <input type="text" placeholder="Username..." class="py-2.5 px-3.5 border-2 border-black rounded-lg">
+                <input id="usernameInput" type="text" placeholder="Username..." class="py-2.5 px-3.5 border-2 border-black rounded-lg">
                 <input type="password" placeholder="Password..." class="py-2.5 px-3.5 border-2 border-black rounded-lg">
                 <div class="flex justify-between items-center">
                     <a href="SignUp.html" class="text-beige hover:underline">Not Registered? Sign-up</a>
-                    <form action="./ForumList.html">
-                        <button type="submit" class="py-2.5 px-3.5 bg-olive text-white font-bold rounded-lg">Enter</button>
-                    </form>
+                    <button id="loginButton" class="py-2.5 px-3.5 bg-olive text-white font-bold rounded-lg">Enter</button>
                 </div>
             </div>
-        </div>
+        </div>        
     </div>
 </body>
 </html>
