@@ -62,7 +62,7 @@
                         <span>0 <button>🔽</button></span>
                     </div>
                 </header>
-                <div class="border-b-2 border-olive flex p-3">
+                <div class="border-b-2 border-olive flex p-3 w-full h-full">
                     <!-- User information -->
                     <a href="Profile-Sam.html">
                         <div class="flex flex-col justify-center items-center">
@@ -73,17 +73,14 @@
                             <div class="font-small text-dim-gray font-normal">Joined 02/10/24</div>
                         </div>
                     </a>
-                    <div class="py-4 px-6 overflow-hidden flex flex-col w-full items-stretch">
-                        <p class="text-black justify-start">Awwww :(</p>
-                        <div class="mt-auto self-end">
-                            <div class="flex">
-                                <p class="justify-end align-baseline mr-3"><a href="Deleted-Post-Snowflake.html">🗑️</a></p>
-                                <p class="justify-end align-baseline"><a href="#">✏️</a></p>
-
-                            </div>
-                        </div>
+                    <div class="py-4 px-6 overflow-hidden flex flex-col w-full h-full items-stretch">
+                        <textarea class="rounded-lg p-5" rows="3"></textarea>
+                        <form action="View-Post-Snowflake.html" class="w-full h-full flex justify-end">
+                            <button class="text-white rounded-lg bg-burnt-sienna mt-5 px-4 py-2">
+                                Reply
+                            </button>
+                        </form>
                     </div>
-                    
                 </div>
             </section>
         </article>
