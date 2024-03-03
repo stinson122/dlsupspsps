@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './NavBar';
+import ImageCard from "./ImageCard.jsx";
 export default LandingPage;
 
 function LandingPage() {
@@ -18,26 +19,10 @@ function LandingPage() {
                     <p className="text-olive text-center text-6xl font-black">DLSU PUSA FORUMS</p>
                 </div>
                 <div className="flex justify-center items-center mt-5 gap-4">
-                    <div
-                        className="w-52 h-80 rounded-lg border border-black flex justify-center items-center overflow-hidden">
-                        <img src="/images/mimiw1.png" alt="Image description"
-                             className="w-full h-full object-cover"/>
-                    </div>
-                    <div
-                        className="w-52 h-80 rounded-lg border border-black flex justify-center items-center overflow-hidden">
-                        <img src="/images/mimiw2.png" alt="Image description"
-                             className="w-full h-full object-cover"/>
-                    </div>
-                    <div
-                        className="w-52 h-80 rounded-lg border border-black flex justify-center items-center overflow-hidden">
-                        <img src="/images/mimiw3.png" alt="Image description"
-                             className="w-full h-full object-cover"/>
-                    </div>
-                    <div
-                        className="w-52 h-80 rounded-lg border border-black flex justify-center items-center overflow-hidden">
-                        <img src="/images/mimiw4.png" alt="Image description"
-                             className="w-full h-full object-cover"/>
-                    </div>
+                    <ImageCard src="/images/mimiw1.png"/>
+                    <ImageCard src="/images/mimiw2.png"/>
+                    <ImageCard src="/images/mimiw3.png"/>
+                    <ImageCard src="/images/mimiw4.png"/>
                 </div>
             </div>
         </div>

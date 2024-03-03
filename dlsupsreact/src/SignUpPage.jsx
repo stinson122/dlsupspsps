@@ -3,9 +3,9 @@ import LoginForm from "./LoginForm.jsx";
 import React from "react";
 import './SignUpForm.jsx'
 import SignUpForm from "./SignUpForm.jsx";
-export default SignupPage;
+export default SignUpPage;
 
-function SignupPage() {
+function SignUpPage() {
     return (
         <div className="bg-beige font-roboto m-0 p-0 h-screen flex flex-col">
             <NavBar/>
