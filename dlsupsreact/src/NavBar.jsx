@@ -17,6 +17,7 @@ function NavBar({ isLoggedIn, onLogout }) {
             <nav className="flex">
                 {isLoggedIn ? (
                     <>
+                        <Link to="/userpage" className="text-beige no-underline mx-5 hover:text-beige">Profile</Link>
                         <a href="#" className="text-beige no-underline mx-5 hover:text-beige" onClick={onLogout}>Logout</a>
                     </>
                 ) : (
