@@ -20,22 +20,22 @@ function LandingPage() {
                 <div className="flex justify-center items-center mt-5 gap-4">
                     <div
                         className="w-52 h-80 rounded-lg border border-black flex justify-center items-center overflow-hidden">
-                        <img src="../public/images/mimiw1.png" alt="Image description"
+                        <img src="/images/mimiw1.png" alt="Image description"
                              className="w-full h-full object-cover"/>
                     </div>
                     <div
                         className="w-52 h-80 rounded-lg border border-black flex justify-center items-center overflow-hidden">
-                        <img src="../public/images/mimiw2.png" alt="Image description"
+                        <img src="/images/mimiw2.png" alt="Image description"
                              className="w-full h-full object-cover"/>
                     </div>
                     <div
                         className="w-52 h-80 rounded-lg border border-black flex justify-center items-center overflow-hidden">
-                        <img src="../public/images/mimiw3.png" alt="Image description"
+                        <img src="/images/mimiw3.png" alt="Image description"
                              className="w-full h-full object-cover"/>
                     </div>
                     <div
                         className="w-52 h-80 rounded-lg border border-black flex justify-center items-center overflow-hidden">
-                        <img src="../public/images/mimiw4.png" alt="Image description"
+                        <img src="/images/mimiw4.png" alt="Image description"
                              className="w-full h-full object-cover"/>
                     </div>
                 </div>
