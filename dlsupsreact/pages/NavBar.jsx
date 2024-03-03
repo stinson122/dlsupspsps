@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import './styles.css'
 import './input.css'
 import './output.css'
 import { Link } from 'react-router-dom';
+import { UserContext } from './UserContext';
 
 export default NavBar;
-function NavBar({ isLoggedIn, onLogout }) {
+function NavBar() {
+    const {isLoggedIn, logout} = useContext(UserContext);
     return (
         <header className="flex h-20 justify-between items-center bg-wow-yellow p-0 px-10">
             <div className="logo">
